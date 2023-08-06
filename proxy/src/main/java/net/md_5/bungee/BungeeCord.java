@@ -538,13 +538,13 @@ public class BungeeCord extends ProxyServer
     @Override
     public String getName()
     {
-        return "BungeeCord";
+        return "BeeCord";
     }
 
     @Override
     public String getVersion()
     {
-        return ( BungeeCord.class.getPackage().getImplementationVersion() == null ) ? "unknown" : BungeeCord.class.getPackage().getImplementationVersion();
+        return "ALPHA-1";
     }
 
     public final void reloadMessages()
